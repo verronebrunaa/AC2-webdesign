@@ -17,7 +17,7 @@ document.getElementById('add-card').addEventListener('click', function () {
             <img src="${images[currentIndex]}" class="card-img-top" alt="random with picsum">
             <div class="card-body">
                 <h5 class="card-title">${title}</h5>
-                <a class="btn btn-primary">Apagar</a>
+                <a class="btn btn-primary delete-card">Delete</a>
             </div>
         `;
         cardContainer.appendChild(newCard);
